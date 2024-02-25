@@ -6,7 +6,8 @@ body {
 }
 
 .box {
-    height: 80vh;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .header {
@@ -30,9 +31,91 @@ body {
 }
 
 .hero {
-    background-color: #1F2937;
+  background-color: #1F2937;
+  display: flex;
+  color: white;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.heroimage {
+  height: 200px;
+  width: 600px;
+  display: flex;
+  background-color: grey;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.infoboxes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.infoimage {
+  border-color: #1F2937;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 4px;
+  width: 200px;
+  height: 200px;
+}
+
+.infotext {
+  width: 200px;
+  text-align: center;
 }
 
 .footer {
     background-color: #1F2937;
+}
+
+.quote {
+  padding: 160px;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+}
+
+.quotetext {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1F2937;
+  margin: 0px;
+}
+
+.quoteauthor {
+  text-align: right;
+}
+
+.cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ctabox {
+  display: flex;
+  flex-direction: row;
+  background-color: #3882F6;
+  margin: 80px;
+  padding: 20px;
+  gap: 80px;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  border-radius: 15px;
 }
